@@ -7,7 +7,7 @@ phases:
     commands:      
       - echo installing dependencies for env $NODE_ENV...      
       - echo $NPM_TOKEN
-      - npm install --registry=https://dev.verdaccio.chemcycled.in
+      - npm install
   build:
     commands:
       - echo building project
