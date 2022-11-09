@@ -8,4 +8,4 @@ phases:
   post_build:
     commands:
       - echo invalidating cache
-      - aws cloudfront create-invalidation --distribution-id E25SFC1EKRXYIA --paths '/*'
+      - aws cloudfront create-invalidation --distribution-id E2HDBXMG6WUYI4 --paths '/*'
